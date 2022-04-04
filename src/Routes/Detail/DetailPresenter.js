@@ -999,8 +999,8 @@ const DetailPresenter = ({
                       <RecommendLink
                         href={
                           recommendation.media_type === "movie"
-                            ? `https://netflix-gw.netlify.app/movie/${recommendation.id}`
-                            : `https://netflix-gw.netlify.app/tv/${recommendation.id}`
+                            ? `https://netflix-clone-d1ee3.web.app/movie/${recommendation.id}`
+                            : `https://netflix-clone-d1ee3.web.app/tv/${recommendation.id}`
                         }
                         bgUrl={recommendation?.poster_path}
                         target="_blank"
@@ -1034,8 +1034,8 @@ const DetailPresenter = ({
                       <RecommendLink
                         href={
                           recommendation.media_type === "movie"
-                            ? `https://netflix-gw.netlify.app/movie/${recommendation.id}`
-                            : `https://netflix-gw.netlify.app/tv/${recommendation.id}`
+                            ? `https://netflix-clone-d1ee3.web.app/movie/${recommendation.id}`
+                            : `https://netflix-clone-d1ee3.web.app/tv/${recommendation.id}`
                         }
                         bgUrl={recommendation?.poster_path}
                         target="_blank"
